@@ -2,6 +2,9 @@
 
 Ein interaktiver Web-Playground zum Schreiben, Ausführen und Speichern von SQL-Abfragen. Perfekt für Lernzwecke, Schulungen oder Prüfungen – dank integriertem Prüfungsmodus.
 
+
+
+![image_alt](https://github.com/kaufi3376/sqlplayground/blob/4d4aecf7368409c4692efb32bdb587dad0bec391/SQL-Playground%20Screenshot.PNG)
 ## ✨ Features
 
 - 🎯 Echtzeit-SQL-Ausführung
