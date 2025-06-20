@@ -26,7 +26,7 @@ Der SQL Playground verfügt über einen integrierten **Prüfungsmodus**, der es 
 Ideal für Tests, Übungen oder benotete Aufgaben.
 
 
-### 📌Datenbank konfiguieren:
+## 📌Datenbank konfiguieren:
 
 1. **Öffne die Datei `schema.sql`**  
    Trage dort dein gewünschtes Datenbankschema ein. Beispiel:
@@ -46,8 +46,6 @@ Ideal für Tests, Übungen oder benotete Aufgaben.
 ## 🚀 SQL Playground starten (Windows – EXE-Version)
 
 Für den einfachen Einsatz im Unterricht oder auf Schüler-PCs gibt es eine vorkonfigurierte `sqlplayground.exe`. Damit startet der Playground ohne Installation oder Kommandozeilenkenntnisse.
-
-### 🧭 Schritt-für-Schritt-Anleitung:
 
 1. **Doppelklicke auf die Datei `sqlplayground.exe`**
    > Die Anwendung startet im Hintergrund einen lokalen Server.
