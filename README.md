@@ -4,7 +4,7 @@ Ein interaktiver Web-Playground zum Schreiben, Ausführen und Speichern von SQL-
 
 
 
-![image_alt]()
+![image_alt](https://github.com/kaufi3376/sqlplayground/blob/5b3adc89490a5262d2240d3527f6c3435edfb927/SqlPlayground%20Screenshot.PNG)
 ## ✨ Features
 
 - 🎯 Echtzeit-SQL-Ausführung
