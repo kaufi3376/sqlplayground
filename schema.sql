@@ -1,0 +1,35 @@
+CREATE TABLE Produkte (
+    ProduktID INT PRIMARY KEY,
+    Produktname VARCHAR(255),
+    Kategorie VARCHAR(255),
+    Anzahl INT,
+    Haltbarkeitsdatum DATE,
+    Preis DECIMAL(10,2),
+    Hersteller VARCHAR(255)
+);
+
+INSERT INTO Produkte (ProduktID, Produktname, Kategorie, Anzahl, Haltbarkeitsdatum, Preis, Hersteller) VALUES
+(1, 'Apfel', 'Obst', 50, '2024-05-10', 1.99, 'BioFarm GmbH'),
+(2, 'Bananen', 'Obst', 30, '2024-05-12', 2.49, 'BioAnbau AG'),
+(3, 'Karotten', 'Gemüse', 40, '2024-05-08', 1.79, 'BioAnbau AG'),
+(4, 'Tomaten', 'Gemüse', 35, '2024-05-09', 2.99, 'BioGarten Genossenschaft'),
+(5, 'Vollkornbrot', 'Backwaren', 20, '2024-05-07', 3.49, 'BioBackerei Müller'),
+(6, 'Haferflocken', 'Getreideprodukte', 25, '2024-06-15', 2.99, 'BioMühle Schmidt'),
+(7, 'Joghurt', 'Milchprodukte', 15, '2024-05-18', 1.79, 'BioAnbau AG'),
+(8, 'Käse', 'Milchprodukte', 20, '2024-05-25', 4.99, 'BioKäserei Mayer'),
+(9, 'Eier', 'Eier & Geflügel', 50, '2024-05-14', 3.99, 'BioHof Sonnenschein'),
+(10, 'Hühnchen', 'Eier & Geflügel', 10, '2024-05-11', 7.99, 'BioGeflügelhof Müller'),
+(11, 'Rindfleisch', 'Fleisch & Wurst', 15, '2024-05-20', 12.99, 'BioFleischerei Schmidt'),
+(12, 'Schweinefleisch', 'Fleisch & Wurst', 10, '2024-05-22', 9.99, 'BioFleischerei Schmidt'),
+(13, 'Linsen', 'Trockenfrüchte & Nüsse', 20, '2024-06-10', 1.49, 'BioTrockenfrucht GmbH'),
+(14, 'Walnüsse', 'Trockenfrüchte & Nüsse', 30, '2024-07-05', 2.99, 'BioNussplantage Müller'),
+(15, 'Honig', 'Sonstiges', 25, '2025-01-01', 5.99, 'BioImkerei Mayer'),
+(16, 'Olivenöl', 'Sonstiges', 40, '2025-02-28', 8.99, 'BioÖlmühle Müller'),
+(17, 'Tofu', 'Vegetarische Produkte', 15, '2024-05-30', 3.29, 'BioTofu GmbH'),
+(18, 'Sojamilch', 'Vegetarische Produkte', 25, '2024-06-05', 2.49, 'BioSoja GmbH'),
+(19, 'Pasta', 'Nudeln & Reis', 30, '2024-09-15', 2.29, 'BioPasta Manufaktur'),
+(20, 'Quinoa', 'Nudeln & Reis', 20, '2024-08-20', 4.99, 'BioPasta Manufaktur'),
+(21, 'Birnen', 'Obst', 35, '2024-05-13', 2.29, 'BioBirnengarten Mayer'),
+(22, 'Spinat', 'Gemüse', 25, '2024-05-08', 1.99, 'BioAnbau AG'),
+(23, 'Zucchini', 'Gemüse', 30, '2024-05-10', 2.49, 'BioAnbau AG'),
+(24, 'Müsli', 'Getreideprodukte', 20, '2024-06-20', 3.99, 'BioMüsli Manufaktur');
