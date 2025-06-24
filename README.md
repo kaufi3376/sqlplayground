@@ -33,10 +33,18 @@ Ideal für Tests, Übungen oder benotete Aufgaben.
 
    ```sql
    CREATE TABLE students (
-       id INTEGER PRIMARY KEY,
-       name TEXT,
-       grade INTEGER
-   );
+    id INTEGER PRIMARY KEY,
+    name TEXT NOT NULL,
+    grade INTEGER,
+    email TEXT,
+    birthdate DATE,
+    address TEXT,
+    enrollment_year INTEGER);
+   INSERT INTO students (id, name, grade, email, birthdate, address, enrollment_year) VALUES
+   (1, 'Anna Schmidt', 12, 'anna.schmidt@example.com', '2007-04-15', 'Musterstraße 1, Berlin', 2023),
+   (2, 'Lukas Meier', 11, 'lukas.meier@example.com', '2008-09-22', 'Beispielweg 5, Hamburg', 2024),
+   (3, 'Sofia Keller', 10, 'sofia.keller@example.com', '2009-12-03', 'Ringstraße 12, München', 2025);
+   
 2. **Lösche die bestehende Datenbankdatei my_database.db** 
     > Diese Datei wird beim nächsten Start automatisch neu erstellt – basierend auf deiner schema.sql.
 
