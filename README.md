@@ -11,7 +11,6 @@ Ein interaktiver Web-Playground zum Schreiben, Ausführen und Speichern von SQL-
 - 💡 Syntax-Highlighting mit CodeMirror
 - 💾 Abfragen speichern & verwalten
 - 🧱 Tabellenstruktur als visuelle Klassenkarten
-- 👤 Benutzername-Modal für individuelle Nutzung
 - 📱 Responsives Design mit flexibler Sidebar
 - 🔒 **Prüfungsmodus** – kontrolliertes Abgeben von Lösungen
 
@@ -28,7 +27,7 @@ Ideal für Tests, Übungen oder benotete Aufgaben.
 
 ## 📌Datenbank konfiguieren:
 
-1. **Öffne die Datei `schema.sql`**  
+1. **Erstelle eine .sql Datei**  
    Trage dort dein gewünschtes Datenbankschema ein. Beispiel:
 
    ```sql
@@ -45,15 +44,21 @@ Ideal für Tests, Übungen oder benotete Aufgaben.
    (2, 'Lukas Meier', 11, 'lukas.meier@example.com', '2008-09-22', 'Beispielweg 5, Hamburg', 2024),
    (3, 'Sofia Keller', 10, 'sofia.keller@example.com', '2009-12-03', 'Ringstraße 12, München', 2025);
    
-2. **Lösche die bestehende Datenbankdatei my_database.db** 
-    > Diese Datei wird beim nächsten Start automatisch neu erstellt – basierend auf deiner schema.sql.
 
-3. **Starte die Anwendung erneut**
-    > Die neue Datenbank wird automatisch geladen und steht bereit zur Nutzung im Playground.
+2. **Lade die Datenbank in der Anwendung hoch**
+    > Das Schema wird automatisch geladen und steht zur Auswahl bereit.
+    
+3. **Wähle das Schema aus**
+    > Die Datenbank wird mit dem ausgewählten Schema überschrieben und steht bereit zur Nutzung im Playground.
+    
+
+
+    ![image](https://github.com/user-attachments/assets/d6c86b93-0ac6-40ad-a527-13a902edba5a)
+
 
 ## 🚀 SQL Playground starten (Windows – EXE-Version)
 
-Für den einfachen Einsatz im Unterricht oder auf Schüler-PCs gibt es eine vorkonfigurierte `sqlplayground.exe`. Damit startet der Playground ohne Installation oder Kommandozeilenkenntnisse.
+Für den einfachen Einsatz im Unterricht und auf Schüler-PCs gibt es eine vorkonfigurierte `sqlplayground.exe`. Damit startet der Playground ohne Installation oder Kommandozeilenkenntnisse.
 
 1. **Doppelklicke auf die Datei `sqlplayground.exe`**
    > Die Anwendung startet im Hintergrund einen lokalen Server.
@@ -62,7 +67,7 @@ Für den einfachen Einsatz im Unterricht oder auf Schüler-PCs gibt es eine vork
    > In diesem Fenster erscheint ein Link, z. B.: Running on http://127.0.0.1:6969/
 
 3. **Kopiere den Link oder merke ihn dir**
-   > Das ist die Adresse, unter der der SQL Playground im Browser erreichbar ist.
+   > Das ist die Adresse, unter der der SQL Playground für dich und deine Schüler im Browser erreichbar ist.
 
 4. **Öffne deinen Browser (z. B. Chrome oder Firefox)**
 
