@@ -60,20 +60,44 @@ Ideal für Tests, Übungen oder benotete Aufgaben.
 
 Für den einfachen Einsatz im Unterricht und auf Schüler-PCs gibt es eine vorkonfigurierte `sqlplayground.exe`. Damit startet der Playground ohne Installation oder Kommandozeilenkenntnisse.
 
-1. **Doppelklicke auf die Datei `sqlplayground.exe`**
+1. **Doppelklicke auf die Datei `sqlplayground.exe`**  
    > Die Anwendung startet im Hintergrund einen lokalen Server.
 
-2. **Ein schwarzes Fenster (CMD) öffnet sich**
-   > In diesem Fenster erscheint ein Link, z. B.: Running on http://127.0.0.1:6969/
+2. **Ein schwarzes Fenster (CMD) öffnet sich**  
+   > In diesem Fenster erscheint ein Link, z. B.: `Running on http://127.0.0.1:6969/`
 
-3. **Kopiere den Link oder merke ihn dir**
+3. **Kopiere den Link oder merke ihn dir**  
    > Das ist die Adresse, unter der der SQL Playground für dich und deine Schüler im Browser erreichbar ist.
 
 4. **Öffne deinen Browser (z. B. Chrome oder Firefox)**
 
-5. **Füge den Link in die Adresszeile ein und bestätige mit Enter**
+5. **Füge den Link in die Adresszeile ein und bestätige mit Enter**  
    > Jetzt öffnet sich der SQL Playground im Browser – bereit für deine SQL-Abfragen.
 
-🔒 **Hinweis:** Die Anwendung läuft nur lokal – es wird nichts ins Internet übertragen.
+---
+
+### 🖥️ Lokaler Modus vs. Server Modus
+
+Die Anwendung unterscheidet zwei Betriebsmodi – beide sind über `sqlplayground.exe` oder `app.py` nutzbar:
+
+#### 🔧 Lokaler Modus *(Einzelplatzanwendung)*
+
+- Die Anwendung wird auf dem Schülergerät direkt ausgeführt.
+- Sie ist **offlinefähig** und benötigt **keine Internet- oder Netzwerkverbindung**.
+- Zugriff erfolgt über `http://127.0.0.1:6969` im lokalen Browser.
+- 💡 **Empfohlen:** Gib deinen Schülern eine ZIP-Datei mit:
+  - `sqlplayground.exe`
+  - dem Ordner `intern/` (enthält Datenbank & Konfiguration)
+- Ideal für Hausaufgaben, Tests oder Übungsszenarien am eigenen PC.
+
+#### 🌐 Server Modus *(Netzwerkbetrieb im Klassenzimmer)*
+
+- Der Lehrer startet die Anwendung im Servermodus.
+- Die Anwendung erkennt automatisch die lokale IP-Adresse (z. B. `192.168.0.42`) und startet auf Port `6969`.
+- Schüler greifen im selben Netzwerk über den Browser zu: `http://192.168.0.42:6969`
+- Perfekt für zentral gesteuerte Übungen oder gemeinsames Arbeiten mit derselben Datenbank im Schulnetz.
+
+
+
 
 
