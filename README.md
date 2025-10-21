@@ -44,11 +44,13 @@ Ideal für Tests, Übungen oder benotete Aufgaben.
    (2, 'Lukas Meier', 11, 'lukas.meier@example.com', '2008-09-22', 'Beispielweg 5, Hamburg', 2024),
    (3, 'Sofia Keller', 10, 'sofia.keller@example.com', '2009-12-03', 'Ringstraße 12, München', 2025);
    
-
-2. **Lade die Datenbank in der Anwendung hoch**
+2. **Logge dich mit deinen eigenen LogIn Daten ein**
+   > Hinterlege vor dem Start deine LogIn Daten unter `intern/logInDaten.json`
+   
+3. **Lade die Datenbank in der Anwendung hoch**
     > Das Schema wird automatisch geladen und steht zur Auswahl bereit.
     
-3. **Wähle das Schema aus**
+4. **Wähle das Schema aus**
     > Die Datenbank wird mit dem ausgewählten Schema überschrieben und steht bereit zur Nutzung im Playground.
     
 
